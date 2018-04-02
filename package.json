@@ -2,7 +2,7 @@
   "name": "mmcclient",
   "version": "1.0.0",
   "description": "Client libraries for Music Moods Classifier",
-  "main": "app.js",
+  "main": "./lib/MMC.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
@@ -11,9 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/ashish3805/MMCClient.git"
   },
-  "keywords": [
-    "MMC"
-  ],
+  "keywords": ["MMC"],
   "author": "Ashish Patel",
   "license": "Apache-2.0",
   "bugs": {
@@ -28,5 +26,6 @@
     "request": "^2.85.0",
     "spotify-web-api-node": "^3.0.0",
     "zmq": "^2.15.3"
-  }
+  },
+  "files": ["lib"]
 }
