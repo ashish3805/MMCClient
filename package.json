@@ -25,6 +25,8 @@
     "eslint-config-google": "^0.9.1"
   },
   "dependencies": {
+    "request": "^2.85.0",
+    "spotify-web-api-node": "^3.0.0",
     "zmq": "^2.15.3"
   }
 }
